@@ -115,9 +115,6 @@ const Projects = () => {
               <div className="project-content">
                 <div className="project-header">
                   <span className="project-date">{project.date}</span>
-                  {project.status && (
-                    <span className="project-status">{project.status}</span>
-                  )}
                 </div>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
